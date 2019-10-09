@@ -1,0 +1,15 @@
+h1 {
+    padding: 10px;
+    background: rgb(167, 148, 95);
+    width: 240px;
+    text-align: center;
+    margin-left: 80px;
+    color: #eee;
+}
+img {
+    height: 240px;
+    width: 360px;
+}
+body {
+    margin: 0 auto;
+}
