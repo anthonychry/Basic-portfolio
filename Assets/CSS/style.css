@@ -4,8 +4,9 @@ header {
     height: 48px;
     background: #fff;
     border-left: 100px solid #fff;
+    font-family: 'Quicksand', sans-serif;
 }
-h1 {
+  h1 {
     padding: 10px;
     background: rgb(167, 148, 95);
     width: 240px;
@@ -16,57 +17,60 @@ h1 {
     position: absolute;
     left: 100px;
     border-radius: 8px;
-}
-ul {
+    font-family: 'Quicksand', sans-serif;
+  }
+  ul {
     position: absolute;
     right: 100px;
     top: 5px;
-}
-li {
+  }
+  li {
     float: left;
     display: block;
     padding: 10px;
     color: lightgray;
     border-right: 1px solid lightgray;
-}
-li:last-child {
+  }
+  li:last-child {
     border-right: none;
-}
-/* Styling code for body - this carries throughout all pages of website 
-<p> element is last CSS code for About page of Website */
-body {
+  }
+  /* Styling code for body - this carries throughout all pages of website 
+  <p> element is last CSS code for About page of Website */
+  body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
     width: 100%;
     background: rgb(245, 245, 245);
     padding: 0;
     border: 0;
-}
-.container {
+  }
+  .container {
     margin: 20px 100px 100px 100px;
     background: #fff;
     padding: 20px;
     border-radius: 15px;
-}
-.profilepic {
+  }
+  .profilepic {
     height: 240px;
     width: 360px;
     float: left;
     margin-right: 20px;
     border-style: 2px solid lightgray;
-}
-h2 {
+    margin-top: 0;
+  }
+  h2 {
     font-size: 20px;
     color: rgb(216, 197, 144);
     padding-bottom: 10px;
     border-bottom: 2px solid lightgray;
     margin-bottom: 20px;
-}
-p {
+    font-family: 'Roboto', sans-serif;
+  }
+  p {
     line-height: 2.2;
-}
-/* Contact page of website! Inputs are textboxes with last being Submit button */
-input[type=text] {
+  }
+  /* Contact page of website! Inputs are textboxes with last being Submit button */
+  input[type="text"] {
     border: none;
     border-bottom: 1px solid rgb(167, 148, 95);
     background: rgb(252, 242, 217);
@@ -74,8 +78,9 @@ input[type=text] {
     padding: 10px 0 10px 0;
     margin-bottom: 10px;
     font-size: 14px;
-}
-input[type=memo] {
+    border-radius: 6px;
+  }
+  input[type="memo"] {
     border: none;
     border-bottom: 1px solid rgb(167, 148, 95);
     background: rgb(252, 242, 217);
@@ -83,60 +88,81 @@ input[type=memo] {
     padding: 10px 0 100px 0;
     margin-bottom: 10px;
     font-size: 14px;
-}
-input[type=submit] {
+    border-radius: 6px;
+  }
+  input[type="submit"] {
     background: rgb(167, 148, 95);
     color: #fff;
     padding: 10px;
     font-size: 14px;
-}
-/* Beginning of Portfolio Website page */
-img {
+    border-radius: 6px;
+  }
+  /* Beginning of Portfolio Website page */
+  img {
     width: 200px;
     height: 150px;
-}
-.driving {
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  .driving {
     text-align: center;
     position: relative;
-    display: inline;
-    margin: 20px;
-}
-#firstproject {
+    display: inline-block;
+    margin: 0 20px 0 0;
+  }
+  #firstproject {
+    position: absolute;
+    right: 0;
+  }
+  .hiking {
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    margin: 0 20px 0 0;
+  }
+  #secondproject {
+    right: 0;
+  }
+  .napping {
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+  }
+  #thirdproject {
+    right: 0;
+  }
+  .obedience {
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+  }
+  #fourthproject {
+    right: 0;
+  }
+  .snacking {
+    text-align: center;
+    position: relative;
+    display: inline-block;
+  }
+  #fifthproject {
+    right: 0;
+  }
+  h3 {
     padding: 10px 0;
     background: rgb(252, 242, 217);
     position: absolute;
     bottom: 15px;
     margin: 0 auto;
-    width: 100%;
-}
-.hiking {
-    text-align: center;
-    position: relative;
-    display: inline;
-}
-#secondproject {
-    padding: 10px 0;
-    background: rgb(252, 242, 217);
-    position: absolute;
-    bottom: 15px;
-    right: 0;
-    width: 100%;
-}
-.napping {
-    text-align: center;
-    position: relative;
-    display: inline;
-}
-#thirdproject {
-    padding: 10px 0;
-    background: rgb(252, 242, 217);
-    position: absolute;
-    bottom: 15px;
-    right: 0;
-    width: 100%;
-}
-/* Footer carries through all pages of website */
-footer {
+    width: 200px;
+    border-radius: 5px;
+  }
+  section {
+    width: 200px;
+  }
+  /* Footer carries through all pages of website */
+  footer {
     width: 100%;
     padding-top: 30px;
     border-top: 3px solid rgb(216, 197, 144);
@@ -147,4 +173,5 @@ footer {
     left: 0;
     position: fixed;
     font-size: 12px;
-}
+  }
+  
