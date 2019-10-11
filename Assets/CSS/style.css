@@ -34,6 +34,9 @@ header {
   li:last-child {
     border-right: none;
   }
+  li:hover {
+    background-color: rgb(252, 242, 217);
+  }
   /* Styling code for body - this carries throughout all pages of website 
   <p> element is last CSS code for About page of Website */
   body {
@@ -77,8 +80,6 @@ header {
     width: 100%;
     padding: 10px 0 10px 0;
     margin-bottom: 10px;
-    font-size: 14px;
-    border-radius: 6px;
   }
   input[type="memo"] {
     border: none;
@@ -87,13 +88,16 @@ header {
     width: 100%;
     padding: 10px 0 100px 0;
     margin-bottom: 10px;
-    font-size: 14px;
-    border-radius: 6px;
   }
   input[type="submit"] {
     background: rgb(167, 148, 95);
     color: #fff;
     padding: 10px;
+  }
+  .submit:hover {
+    background-color: rgb(165, 165, 165);
+  }
+  input {
     font-size: 14px;
     border-radius: 6px;
   }
